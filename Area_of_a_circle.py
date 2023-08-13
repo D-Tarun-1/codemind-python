@@ -1,5 +1,4 @@
-n=int(input())
+r=int(input())
 pi=3.14
-c=pi*n*n
-d=round(c,2)
-print(d)
+b=pi*r*r
+print(f"{b:.2f}")
