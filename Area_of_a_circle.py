@@ -1,4 +1,3 @@
 r=int(input())
-pi=3.14
-b=pi*r*r
+b=3.14*r*r
 print(f"{b:.2f}")
