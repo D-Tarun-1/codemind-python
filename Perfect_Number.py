@@ -1,11 +1,9 @@
 a=int(input())
 s=0
-i=1
-while(i<=a/2):
+for i in range(1,a):
     if(a%i==0):
         s=s+i
-    i+=1
-if(s==a):
+if(a==s):
     print("True")
 else:
     print("False")
