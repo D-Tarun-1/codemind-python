@@ -6,13 +6,13 @@ def arium(n):
     return l
 a=int(input())
 s=0
-dis=arium(a)
 b=a
+c=arium(a)
 while(a!=0):
     r=a%10
-    s=s+(r**dis)
+    s=s+(r**c)
     a//=10
-    dis=dis-1
+    c=c-1
 if(s==b):
     print("True")
 else:
